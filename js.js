@@ -13,3 +13,7 @@ for (var i = 0; i < 6; i++) {
 }
 return color;
 }
+
+function setRandomColor() {
+$("#colorpad").css("background-color", getRandomColor());
+}
